@@ -1,0 +1,2 @@
+include ':AndroidHoloColors', ':libraries:android-numberpicker'
+include ':AndroidHoloColors', ':libraries:switch-backport'

@@ -1,0 +1,16 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1383491365000 135 1cb01e98f4a9e215be5243d8c57e56d58d06ca87 /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable-mdpi/np_numberpicker_selection_divider.9.png
+1384381020000 139 c215c09fac295f796471c0559c82c9f7d29a687d /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable-hdpi/list_focused_holo.9.png
+1383491365000 1348 8697e7f0ad24811d90705b2955f1404a9ea0fe0d /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/layout/number_picker_with_selector_wheel.xml
+1384381020000 115 9829b4c47e4155f87383bee422adf6195b63619a /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable-hdpi/list_activated_holo.9.png
+1384381081000 2049 a2c5995fd809d60d8652f938585672be0f1e101e /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable/item_background_holo_dark.xml
+1383491365000 3572 b020eacdcd7e4fa5fbb6f91e9e891d5d5490e95a /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/values/values.xml
+1384380963000 2050 5e4935363f6f372a6ce66ebf229aa95197ed6147 /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable/item_background_holo_light.xml
+1384381020000 115 433e8fb7b97810cf1ca63a27737adb53fdb10214 /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable-hdpi/list_pressed_holo_light.9.png
+1383491365000 141 1ed969e6f6de5171c57d0f0f90e6d3a91328d7da /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable-hdpi/np_numberpicker_selection_divider.9.png
+1383491365000 142 c1197692fbbd18434188f1a4914744747c725047 /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable-xhdpi/np_numberpicker_selection_divider.9.png
+1384380963000 1070 e717fc3e52f7559a2a07f9257669059c14916b02 /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable/list_selector_background_transition_holo_light.xml
+1384381020000 115 9829b4c47e4155f87383bee422adf6195b63619a /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable-hdpi/list_longpressed_holo.9.png
+1384381020000 189 a742959d32d3ecee0adb34bce43edd7b5bc4e649 /Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/build/res/all/release/drawable-hdpi/list_selector_disabled_holo_light.9.png

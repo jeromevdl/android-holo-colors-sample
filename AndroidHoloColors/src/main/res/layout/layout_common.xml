@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- EDITTEXT -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/edittext"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressIndeterminate"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/edittext"
+        android:inputType="textPersonName">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/editText1"
+        android:ems="3"
+        android:lines="3"
+        android:maxLines="3"
+        android:minLines="3"
+        android:singleLine="false" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/editText2"
+        android:ems="3" />
+
+    <!-- CHECKBOX -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView1"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="16dp"
+        android:text="@string/checkbox"
+        android:textSize="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressIndeterminate"
+        android:layout_below="@id/editText1"
+        android:layout_toRightOf="@id/textView2"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText1"
+        android:layout_toRightOf="@id/checkBox1"
+        android:checked="false" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText1"
+        android:layout_toRightOf="@id/checkBox2"
+        android:checked="true"
+        android:enabled="false" />
+
+    <!-- RADIO -->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="16dp"
+        android:text="@string/radio"
+        android:textSize="16dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressIndeterminate"
+        android:layout_below="@id/checkBox1"
+        android:layout_toRightOf="@id/textView3"
+        android:checked="true" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox2"
+        android:layout_toRightOf="@id/radioButton1"
+        android:checked="false" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox3"
+        android:layout_toRightOf="@id/radioButton2"
+        android:checked="true"
+        android:enabled="false" />
+
+    <!-- SPINNER -->
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="16dp"
+        android:text="@string/spinner"
+        android:textSize="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressIndeterminate"
+        android:layout_below="@id/radioButton1"
+        android:layout_toRightOf="@id/textView4" />
+
+    <!-- BUTTON -->
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="16dp"
+        android:text="@string/button"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressIndeterminate"
+        android:layout_below="@id/spinner1"
+        android:layout_toRightOf="@id/textView5"
+        android:onClick="onButtonClick"
+        android:text="@string/button_normal" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner1"
+        android:layout_toRightOf="@id/button1"
+        android:enabled="false"
+        android:text="@string/button_disable" />
+
+    <!-- TOGGLE BUTTON -->
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@id/textView5"
+        android:layout_marginTop="18dp"
+        android:text="@string/togglebutton"
+        android:textSize="16dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressIndeterminate"
+        android:layout_below="@id/button1"
+        android:layout_toRightOf="@id/textView8"
+        android:checked="true"
+        android:textOff="Disabled"
+        android:textOn="Enabled" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/button2"
+        android:layout_below="@id/button2"
+        android:layout_toRightOf="@id/toggleButton1"
+        android:checked="true"
+        android:enabled="false"
+        android:textOff="OFF"
+        android:textOn="ON" />
+
+    <!-- PROGRESS BAR -->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="28dp"
+        android:text="@string/progressbar"
+        android:textSize="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressIndeterminate"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toggleButton1"
+        android:layout_margin="7dp"
+        android:layout_toRightOf="@id/textView6"
+        android:indeterminate="true" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressIndeterminate"
+        android:layout_margin="7dp"
+        android:layout_toRightOf="@id/textView6"
+        android:indeterminate="false"
+        android:max="120"
+        android:progress="40" />
+
+    <!-- PROGRESS BAR -->
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@id/progress"
+        android:layout_marginTop="7dp"
+        android:text="@string/seekbar"
+        android:textSize="16dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/textView7"
+        android:max="120"
+        android:progress="80" />
+
+    <!-- RATING BAR -->
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@id/textView7"
+        android:layout_marginTop="22dp"
+        android:text="@string/ratingbar"
+        android:textSize="16dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/progressIndeterminate"
+        android:layout_below="@id/seekBar1"
+        android:layout_toRightOf="@id/textView9"
+        android:rating="1.5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@id/textView9"
+        android:layout_marginTop="22dp"
+        android:text="@string/ratingbar"
+        android:textSize="16dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ratingBar1"
+        android:layout_below="@id/ratingBar1"
+        android:layout_toRightOf="@id/textView10"
+        android:rating="3.5" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@id/textView10"
+        android:layout_marginTop="22dp"
+        android:text="@string/ratingbar"
+        android:textSize="16dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ratingBar2"
+        android:layout_below="@id/ratingBar2"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/textView11"
+        android:rating="2.5" />
+
+</merge>

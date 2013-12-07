@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/common"
+            layout="@layout/layout_common" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView11"
+            android:layout_toLeftOf="@+id/switch1"
+            android:layout_marginTop="16dp"
+            android:text="@string/button_switch"
+            android:textSize="16dp"/>
+
+        <Switch
+            android:id="@id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/apptheme_switch_inner_holo_dark"
+            android:track="@drawable/apptheme_switch_track_holo_dark"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_below="@+id/ratingBar3"
+            android:layout_marginTop="16dp"
+            android:checked="true"
+            android:textOff="NO"
+            android:textOn="YES" />
+
+    </RelativeLayout>
+
+</ScrollView>

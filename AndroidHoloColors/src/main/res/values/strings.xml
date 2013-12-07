@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Android Holo Colors</string>
+
+    <string name="edittext">Edittext</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="radio">Radio</string>
+    <string name="spinner">Spinner</string>
+    <string name="button">Button</string>
+    <string name="togglebutton">Toggle</string>
+    <string name="seekbar">SeekBar</string>
+    <string name="progressbar">ProgressBar</string>
+    <string name="button_normal">normal</string>
+    <string name="button_disable">disable</string>
+    <string name="button_switch">Switch</string>
+    <string name="ratingbar">RatingBar</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>

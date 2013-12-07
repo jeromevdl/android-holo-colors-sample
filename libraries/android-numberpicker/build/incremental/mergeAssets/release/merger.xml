@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/src/main/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/jva/Developpement/workspace_android/perso/AndroidHoloColors/libraries/android-numberpicker/src/release/assets" />
+    </dataSet>
+
+</merger>
