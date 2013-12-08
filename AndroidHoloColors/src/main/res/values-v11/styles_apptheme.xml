@@ -1,39 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright 2013 Android Holo Colors by Jérôme Van Der Linden
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-  http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
--->
 
 <!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <style name="AutoCompleteTextViewAppTheme" parent="android:Widget.Holo.AutoCompleteTextView">
-      <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_dark</item>
-	    <item name="android:background">@drawable/apptheme_edit_text_holo_dark</item>
+  <style name="AutoCompleteTextViewAppTheme" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/apptheme_edit_text_holo_light</item>
   </style>
 
-  <style name="ButtonAppTheme" parent="android:Widget.Holo.Button">
-	  <item name="android:background">@drawable/apptheme_btn_default_holo_dark</item>
+  <style name="ButtonAppTheme" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
   </style>
 
-  <style name="ImageButtonAppTheme" parent="android:Widget.Holo.ImageButton">
-	  <item name="android:background">@drawable/apptheme_btn_default_holo_dark</item>
+  <style name="ImageButtonAppTheme" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
   </style>
 
-  <style name="SpinnerAppTheme" parent="android:Widget.Holo.Spinner">
-      <item name="android:background">@drawable/apptheme_spinner_background_holo_dark</item>
-      <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_dark</item>
+  <style name="SpinnerAppTheme" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/apptheme_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_light</item>
   </style>
 
   <style name="TabWidgetAppTheme" parent="@android:style/Widget.TabWidget">
@@ -47,34 +32,34 @@
       <item name="tabLayout">@layout/apptheme_tab_indicator_holo</item>
   </style>
 
-  <style name="ProgressBarAppTheme" parent="android:Widget.Holo.ProgressBar.Horizontal">
-      <item name="android:progressDrawable">@drawable/apptheme_progress_horizontal_holo_dark</item>
-      <item name="android:indeterminateDrawable">@drawable/apptheme_progress_indeterminate_horizontal_holo_dark</item>
+  <style name="ProgressBarAppTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/apptheme_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/apptheme_progress_indeterminate_horizontal_holo_light</item>
   </style>
 
-  <style name="SeekBarAppTheme" parent="android:Widget.Holo.SeekBar">
-      <item name="android:progressDrawable">@drawable/apptheme_scrubber_progress_horizontal_holo_dark</item>
-      <item name="android:indeterminateDrawable">@drawable/apptheme_scrubber_progress_horizontal_holo_dark</item>
-      <item name="android:thumb">@drawable/apptheme_scrubber_control_selector_holo_dark</item>
+  <style name="SeekBarAppTheme" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/apptheme_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/apptheme_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/apptheme_scrubber_control_selector_holo_light</item>
   </style>
 
-  <style name="RatingBarAppTheme" parent="android:Widget.Holo.RatingBar">
-      <item name="android:progressDrawable">@drawable/apptheme_ratingbar_full_holo_dark</item>
-      <item name="android:indeterminateDrawable">@drawable/apptheme_ratingbar_full_holo_dark</item>
+  <style name="RatingBarAppTheme" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/apptheme_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/apptheme_ratingbar_full_holo_light</item>
   </style>
 
-  <style name="RatingBarBigAppTheme" parent="android:Widget.Holo.RatingBar.Indicator">
-      <item name="android:progressDrawable">@drawable/apptheme_ratingbar_holo_dark</item>
-      <item name="android:indeterminateDrawable">@drawable/apptheme_ratingbar_holo_dark</item>
+  <style name="RatingBarBigAppTheme" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/apptheme_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/apptheme_ratingbar_holo_light</item>
   </style>
 
-  <style name="RatingBarSmallAppTheme" parent="android:Widget.Holo.RatingBar.Small">
-      <item name="android:progressDrawable">@drawable/apptheme_ratingbar_small_holo_dark</item>
-      <item name="android:indeterminateDrawable">@drawable/apptheme_ratingbar_small_holo_dark</item>
+  <style name="RatingBarSmallAppTheme" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/apptheme_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/apptheme_ratingbar_small_holo_light</item>
   </style>
 
-  <style name="ToggleAppTheme" parent="android:Widget.Holo.Button.Toggle">
-      <item name="android:background">@drawable/apptheme_btn_toggle_holo_dark</item>
+  <style name="ToggleAppTheme" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/apptheme_btn_toggle_holo_light</item>
   </style>
 
 </resources>

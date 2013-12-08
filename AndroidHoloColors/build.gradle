@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:support-v4:18.0.+'
    //  compile project(':libraries:android-numberpicker')
     // compile project(':libraries:switch-backport')
 }
