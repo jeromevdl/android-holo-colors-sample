@@ -21,17 +21,6 @@
       <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_light</item>
   </style>
 
-  <style name="TabWidgetAppTheme" parent="@android:style/Widget.TabWidget">
-      <item name="android:tabStripLeft">@null</item>
-      <item name="android:tabStripRight">@null</item>
-      <item name="android:tabStripEnabled">false</item>
-      <item name="android:divider">?android:attr/dividerVertical</item>
-      <item name="android:showDividers">middle</item>
-      <item name="android:dividerPadding">8dip</item>
-      <item name="android:measureWithLargestChild">true</item>
-      <item name="tabLayout">@layout/apptheme_tab_indicator_holo</item>
-  </style>
-
   <style name="ProgressBarAppTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
       <item name="android:progressDrawable">@drawable/apptheme_progress_horizontal_holo_light</item>
       <item name="android:indeterminateDrawable">@drawable/apptheme_progress_indeterminate_horizontal_holo_light</item>

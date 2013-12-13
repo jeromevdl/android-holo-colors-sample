@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/switch-backport/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/switch-backport/src/debug/assets" />
+    </dataSet>
+
+</merger>

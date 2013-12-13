@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res" >
+            <file
+                name="item_background_holo_dark"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable/item_background_holo_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="item_background_holo_light"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable/item_background_holo_light.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_background_transition_holo_light"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable/list_selector_background_transition_holo_light.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_activated_holo"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable-hdpi/list_activated_holo.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_focused_holo"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable-hdpi/list_focused_holo.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_longpressed_holo"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable-hdpi/list_longpressed_holo.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_pressed_holo_light"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable-hdpi/list_pressed_holo_light.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="list_selector_disabled_holo_light"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable-hdpi/list_selector_disabled_holo_light.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="np_numberpicker_selection_divider"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable-hdpi/np_numberpicker_selection_divider.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="np_numberpicker_selection_divider"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable-mdpi/np_numberpicker_selection_divider.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="np_numberpicker_selection_divider"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/drawable-xhdpi/np_numberpicker_selection_divider.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="number_picker_with_selector_wheel"
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/layout/number_picker_with_selector_wheel.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/values/colors.xml"
+                qualifiers="" >
+                <color name="transparent" >#00000000
+                </color>
+            </file>
+            <file
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/values/ids.xml"
+                qualifiers="" >
+                <item
+                    name="np__decrement"
+                    type="id"/>
+                <item
+                    name="np__increment"
+                    type="id"/>
+            </file>
+            <file
+                path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/res/values/themes.xml"
+                qualifiers="" >
+                <declare-styleable name="NumberPicker" >
+
+                    <!-- @hide Color for the solid color background if such for optimized rendering. -->
+                    <attr
+                        name="solidColor"
+                        format="color|reference" />
+                    <!-- @hide The divider for making the selection area. -->
+                    <attr
+                        name="selectionDivider"
+                        format="reference" />
+                    <!-- @hide The height of the selection divider. -->
+                    <attr
+                        name="selectionDividerHeight"
+                        format="dimension" />
+                    <!-- @hide The distance between the two selection dividers. -->
+                    <attr
+                        name="selectionDividersDistance"
+                        format="dimension" />
+                    <!-- @hide The min height of the NumberPicker. -->
+                    <attr
+                        name="internalMinHeight"
+                        format="dimension" />
+                    <!-- @hide The max height of the NumberPicker. -->
+                    <attr
+                        name="internalMaxHeight"
+                        format="dimension" />
+                    <!-- @hide The min width of the NumberPicker. -->
+                    <attr
+                        name="internalMinWidth"
+                        format="dimension" />
+                    <!-- @hide The max width of the NumberPicker. -->
+                    <attr
+                        name="internalMaxWidth"
+                        format="dimension" />
+                    <!-- @hide The layout of the number picker. -->
+                    <attr
+                        name="internalLayout"
+                        format="reference" />
+                    <!-- @hide The drawable for pressed virtual (increment/decrement) buttons. -->
+                    <attr
+                        name="virtualButtonPressedDrawable"
+                        format="reference" />
+                </declare-styleable>
+
+                <style
+                    name="NPWidget.Holo.Light.NumberPicker"
+                    parent="NPWidget.Holo.NumberPicker" >
+                    <item name="virtualButtonPressedDrawable">
+@drawable/item_background_holo_light
+                    </item>
+                </style>
+
+                <style name="NPWidget" >
+                    <item name="android:textAppearance">
+?android:attr/textAppearance
+                    </item>
+                </style>
+
+                <style name="NPWidget.NumberPicker" >
+                    <item name="android:orientation">
+vertical
+                    </item>
+                    <item name="android:fadingEdge">
+vertical
+                    </item>
+                    <item name="android:fadingEdgeLength">
+50dip
+                    </item>
+                </style>
+
+                <style
+                    name="NPWidget.Holo.NumberPicker"
+                    parent="NPWidget.NumberPicker" >
+                    <item name="solidColor">
+@android:color/transparent
+                    </item>
+                    <item name="selectionDivider">
+@drawable/np_numberpicker_selection_divider
+                    </item>
+                    <item name="selectionDividerHeight">
+2dip
+                    </item>
+                    <item name="internalLayout">
+@layout/number_picker_with_selector_wheel
+                    </item>
+                    <item name="internalMinWidth">
+64dip
+                    </item>
+                    <item name="internalMaxHeight">
+180dip
+                    </item>
+                    <item name="virtualButtonPressedDrawable">
+@drawable/item_background_holo_dark
+                    </item>
+                </style>
+
+                <attr
+                    name="numberPickerStyle"
+                    format="reference" />
+            </file>
+        </source>
+        <source path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/jva/Developpement/workspace_android/perso/android-holo-colors-sample/libraries/android-numberpicker/src/debug/res" />
+    </dataSet>
+
+</merger>
