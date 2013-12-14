@@ -46,7 +46,6 @@ if(project.hasProperty("holocolors.signing")
 
 dependencies {
     compile 'com.android.support:support-v4:18.0.+'
-   // compile "com.android.support:appcompat-v7:18.0.+"
    //  compile project(':libraries:android-numberpicker')
     // compile project(':libraries:switch-backport')
 }
