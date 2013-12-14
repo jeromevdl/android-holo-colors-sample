@@ -3,6 +3,7 @@ package fr.vdl.androidholocolors.activity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
@@ -10,7 +11,7 @@ import android.widget.TextView;
 import fr.vdl.androidholocolors.R;
 import fr.vdl.androidholocolors.fragment.ListFragment;
 
-public class ListActivity extends FragmentActivity {
+public class ListActivity extends ActionBarActivity {
 
 	private FragmentTabHost mTabHost;
 
