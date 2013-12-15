@@ -41,16 +41,6 @@
   <style name="SpinnerDropDownItemAppTheme" parent="android:Widget.DropDownItem.Spinner">
       <item name="android:checkMark">@drawable/apptheme_btn_radio_holo_light</item>
   </style>
-  <style name="TabWidgetAppTheme" parent="@android:style/Widget.TabWidget">
-      <item name="android:tabStripLeft">@null</item>
-      <item name="android:tabStripRight">@null</item>
-      <item name="android:tabStripEnabled">false</item>
-      <item name="android:divider">?android:attr/dividerVertical</item>
-      <item name="android:showDividers">middle</item>
-      <item name="android:dividerPadding">8dip</item>
-      <item name="android:measureWithLargestChild">true</item>
-      <item name="tabLayout">@layout/apptheme_tab_indicator_holo</item>
-  </style>
 
   <style name="TabAppTheme">
       <item name="android:gravity">center_horizontal</item>
