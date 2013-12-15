@@ -21,7 +21,8 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
---><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="org.jraf.android.backport.switchwidget">
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="org.jraf.android.backport.switchwidget">
 
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="18"/>
 

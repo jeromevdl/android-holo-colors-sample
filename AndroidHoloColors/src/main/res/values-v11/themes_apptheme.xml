@@ -19,7 +19,7 @@
 
     <item name="android:dropDownSpinnerStyle">@style/SpinnerAppTheme</item>
 
-    <item name="android:tabWidgetStyle">@style/TabWidgetAppTheme</item>
+    <!-- <item name="android:tabWidgetStyle">@style/TabWidgetAppTheme</item> -->
 
     <item name="android:progressBarStyleHorizontal">@style/ProgressBarAppTheme</item>
 

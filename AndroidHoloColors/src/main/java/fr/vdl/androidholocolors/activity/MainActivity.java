@@ -8,9 +8,11 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Spinner;
 
+import com.actionbarsherlock.app.SherlockActivity;
+
 import fr.vdl.androidholocolors.R;
 
-public class MainActivity extends Activity {
+public class MainActivity extends SherlockActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
