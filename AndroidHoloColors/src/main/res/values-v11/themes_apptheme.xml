@@ -3,9 +3,15 @@
 <!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <style name="AppTheme" parent="Theme.AppCompat.Light">
+  <style name="AppTheme" parent="@style/_AppTheme"/>
+
+  <style name="_AppTheme" parent="Theme.AppCompat.Light">
 
     <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
+
+    <item name="android:textSelectHandleLeft">@drawable/apptheme_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/apptheme_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/apptheme_text_select_handle_middle</item>
 
     <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewAppTheme</item>
 
