@@ -14,6 +14,8 @@
 # generated files
 bin/
 gen/
+libraries/android-numberpicker/build/
+libraries/switch-backport/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -30,3 +32,4 @@ proguard/
 *.ipr
 *.iws
 .idea/
+.gradle/
