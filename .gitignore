@@ -31,5 +31,5 @@ proguard/
 *.iml
 *.ipr
 *.iws
-.idea/
-.gradle/
+.idea
+.gradle
