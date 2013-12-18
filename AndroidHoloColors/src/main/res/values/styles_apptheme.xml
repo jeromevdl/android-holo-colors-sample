@@ -41,7 +41,6 @@
   <style name="SpinnerDropDownItemAppTheme" parent="android:Widget.DropDownItem.Spinner">
       <item name="android:checkMark">@drawable/apptheme_btn_radio_holo_light</item>
   </style>
-
   <style name="TabAppTheme">
       <item name="android:gravity">center_horizontal</item>
       <item name="android:paddingLeft">16dip</item>
