@@ -30,3 +30,6 @@ proguard/
 *.ipr
 *.iws
 .idea/
+.gradle/
+libraries/switch-backport/build/
+libraries/android-numberpicker/build/
